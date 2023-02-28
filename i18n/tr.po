@@ -1,1 +1,291 @@
-Turkish
+#, sh-format
+msgid   "$GSH_ROOT/i18n/gameshell-HELP/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$GSH_ROOT/i18n/gameshell-help/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$GSH_ROOT/i18n/gameshell-init-msg-short/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$GSH_ROOT/i18n/gameshell-init-msg/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$GSH_ROOT/i18n/gameshell-welcome/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$GSH_ROOT/i18n/start-help/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$MISSION_DIR/goal/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$MISSION_DIR/skip/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$MISSION_DIR/treasure-msg/en.txt"
+msgstr  ""
+
+#, sh-format
+msgid   "$nb_failed_tests failures out of $nb_tests tests"
+msgstr  ""
+
+#, sh-format
+msgid   "$nb_tests successful tests"
+msgstr  ""
+
+#, awk-format
+msgid   "%d authentification failure"
+msgid_plural    "%d authentification failures"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#, awk-format
+msgid   "%d mission cancelled for missing dependencies:"
+msgid_plural    "%d missions cancelled for missing dependencies:"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#, awk-format
+msgid   "%d mission passed using the auto.sh script:"
+msgid_plural    "%d missions passed using the auto.sh script:"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#, awk-format
+msgid   "%d mission passed:"
+msgid_plural    "%d missions passed:"
+msgstr[0]       ""
+msgstr[1]       ""
+
+#, awk-format
+msgid   "%d mission skipped:"
+msgid_plural    "%d missions skipped:"
+msgstr[0]       ""
+msgstr[1]       ""
+
+msgid   "AUTOMATICALLY GENERATED ON STARTUP -- DO NOT MODIFY"
+msgstr  ""
+
+#, sh-format
+msgid   "Congratulations, mission $MISSION_NB has been successfully completed!"
+msgstr  ""
+
+#, sh-format
+msgid   "Error: _gsh_assert_check only accept 'true' and 'false' as argument."
+msgstr  ""
+
+msgid   "Error: a least one base function is not working properly.\n"
+        "Aborting!"
+msgstr  ""
+
+#, sh-format
+msgid   "Error: couldn't get mission number $MISSION_NB (from $fn_name)"
+msgstr  ""
+
+#, sh-format
+msgid   "Error: invalid option: '-$OPTARG'"
+msgstr  ""
+
+#, sh-format
+msgid   "Error: mission $MISSION_NB doesn't exist!"
+msgstr  ""
+
+#, sh-format
+msgid   "Error: mission $MISSION_NB doesn't have a test script."
+msgstr  ""
+
+#, sh-format
+msgid   "Error: mission $MISSION_NB doesn't have an auto script."
+msgstr  ""
+
+#, sh-format
+msgid   "Error: mission $MISSION_NB is cancelled because some dependencies are not met."
+msgstr  ""
+
+msgid   "Error: no mission was found!\n"
+        "Aborting."
+msgstr  ""
+
+msgid   "Error: the 'goto' command requires a mission number as argument."
+msgstr  ""
+
+msgid   "Error: the command 'gsh hardreset' shouldn't be run inside a subshell!"
+msgstr  ""
+
+msgid   "Error: the command 'gsh reset' shouldn't be run inside a subshell!"
+msgstr  ""
+
+msgid   "Error: this option is only available from an executable archive!"
+msgstr  ""
+
+#, sh-format
+msgid   "Error: unknown gsh command '$cmd'.\n"
+        "Use one of the following commands:"
+msgstr  ""
+
+#, sh-format
+msgid   "Error: unknown shell '$SHELL'.\n"
+        "Run GameShell with either bash or zsh."
+msgstr  ""
+
+msgid   "Error: wrong password."
+msgstr  ""
+
+msgid   "Error: you are not allowed to run this command."
+msgstr  ""
+
+msgid   "Error: you shouldn't run Gameshell as root!"
+msgstr  ""
+
+msgid   "Is this information correct? [Y/n]"
+msgstr  ""
+
+#, sh-format
+msgid   "Mission $MISSION_NB has been cancelled."
+msgstr  ""
+
+msgid   "N"
+msgstr  ""
+
+msgid   "Player's email:"
+msgstr  ""
+
+msgid   "Player's name:"
+msgstr  ""
+
+msgid   "Press Enter to continue."
+msgstr  ""
+
+msgid   "START OF COMMANDS HISTORY"
+msgstr  ""
+
+#, sh-format
+msgid   "Sorry, mission $MISSION_NB hasn't been completed."
+msgstr  ""
+
+#, sh-format
+msgid   "The directory $GSH_CONFIG contains meta-data from a previous game.\n"
+        "Do you want to remove it and start a new game? [y/N]"
+msgstr  ""
+
+msgid   "The latest version of Gameshell is available at"
+msgstr  "GameShell'in son sürümüne şuradan erişilebilir"
+
+msgid   "There are stopped jobs in your session.\n"
+        "Those processes will be terminated.\n"
+        "You can get the list of those jobs with\n"
+        "    $ jobs\n"
+        "Do you still want to quit? [y/n]"
+msgstr  "Oturumunuzdaki işlemler durduruldu.\n"
+        "Şuradaki süreçler sonlandırılacak.\n"
+        "    $ jobs\n"
+        "Çıkış yapmak istiyor musunuz? [e/h]"
+
+msgid   "Warning: the file 'treasure.sh' was sourced from a subshell.\n"
+        "You should use the command\n"
+        "  $ gsh reset"
+msgstr  "Uyarı: 'treasure.sh' dosyası, alt kabuk tarafından içeri aktarıldı.\n"
+        "Şu komutu çalıştırın\n"
+        "  $ gsh reset"
+
+msgid   "Warning: this mission was initialized in a subshell.\n"
+        "Run the command\n"
+        "    $ gsh reset\n"
+        "to make sure the mission is initialized properly."
+msgstr  "Uyarı: bu görev alt kabuk tarafından başlatıldı.\n"
+        "Şu komutu çalıştırın:\n"
+        "    $ gsh reset\n"
+        "görevin düzgün bir şekilde başlatıldığından emin olun."
+
+msgid   "While you are waiting, a bat flies by..."
+msgstr  "Beklerken, bir yarasa uçar..."
+
+msgid   "While you are waiting, a caterpillar crawls by..."
+msgstr  "Beklerken, bir tırtıl sürünerek ilerler..."
+
+msgid   "While you are waiting, a centipede crawls by..."
+msgstr  "Beklerken, bir kırkayak sürünerek ilerler..."
+
+msgid   "While you are waiting, a duck swims by..."
+msgstr  "Beklerken, bir ördek yüzer..."
+
+msgid   "While you are waiting, a fish swims by..."
+msgstr  "Beklerken, bir balık yüzer..."
+
+msgid   "While you are waiting, a large fish swims by..."
+msgstr  "Beklerken, büyük bir balık yüzer..."
+
+msgid   "While you are waiting, a snail goes by..."
+msgstr  "Beklerken, bir salyangoz oldukça yavaş bir şekilde ilerler..."
+
+msgid   "While you are waiting, a snake slithers by..."
+msgstr  "Beklerken, bir yılan sürünerek ilerler..."
+
+msgid   "While you are waiting, a spider crawls by..."
+msgstr  "Beklerken, bir örümcek yavaşça ilerler..."
+
+msgid   "While you are waiting, an ant crawls by..."
+msgstr  "Beklerken, bir karınca yavaşça ilerler..."
+
+msgid   "While you are waiting, you see a fish swimming in circles..."
+msgstr  "Beklerken, daireler çizerek yüzen bir balık görürsün..."
+
+msgid   "Y"
+msgstr  "E"
+
+msgid   "You left GameShell's directory structure. Use\n"
+        "    $ cd\n"
+        "to go back to the GameShell's starting directory."
+msgstr  "GameShell dizininin dışına çıktınız\n"
+        "    $ cd\n"
+        "GameShell'in başlangıç dizinine geri dönmek için yukarıdaki komutu yazın."
+
+msgid   "[Press space to continue, q to quit\\.]"
+msgstr  "[Devam etmek için boşluk, çıkmak için q tuşuna basın\\.]"
+
+msgid   "cancelled"
+msgstr  "iptal edildi"
+
+msgid   "completed"
+msgstr  "tamamlandı"
+
+msgid   "days"
+msgstr  "günler"
+
+msgid   "failed"
+msgstr  "başarısız"
+
+#, awk-format
+msgid   "game time: %s in %d session"
+msgid_plural    "game time: %s in %d sessions"
+msgstr[0]       "oyun zamanı: %d oturumundaki %s"
+msgstr[1]       "oyun zamanı: %d oturumlarındaki %s"
+
+msgid   "n"
+msgstr  "h"
+
+msgid   "password:"
+msgstr  "parola:"
+
+msgid   "skipped"
+msgstr  "atlandı"
+
+#, sh-format
+msgid   "test $nb_tests failed"
+msgstr  "$nb_tests test'i başarısız oldu"
+
+#, awk-format
+msgid   "total time: %s"
+msgstr  "toplam zaman: %s"
+
+msgid   "y"
+msgstr  "e"
